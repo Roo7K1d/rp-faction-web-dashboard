@@ -23,6 +23,9 @@
 Just put all of the files and folders on a webserver.
 <br>
 Of course, this is self-hosting on localhost.
+<br>
+<br>
+NOTE: This is not a plug&play repository. I've just decided to publicize this little project of mine i started with when i played RP. Therefore I have not yet translated it to english and have not finalized all of the features. If you like this project feel free to fork this repository and do these things (don't forget to create a pull request after :)). Right now i am not actively maintaining this repository, so i will most likely not help you with basic coding questions like "how do i set up the database" or something like that. If you do wish for a personalized version of this website feel free to contact me on Discord (CancerKidMax#1337) as i can set this up for you. I will not do this for free tho.
 
 <hr>
 
