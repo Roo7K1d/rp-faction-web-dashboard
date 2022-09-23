@@ -1,5 +1,5 @@
 <img src="https://cdn.discordapp.com/attachments/820416224005586945/886613185434636318/d0x-k1t-v2.png">
-<p align="center"><i>Active reconaissance, information gathering and OSINT built in a portable web application test.</i></p>
+<p align="center"><i>A web-based dashboard for organizing your roleplay faction.</i></p>
 <div align="center">
   <a href="https://github.com/roo7k1d/d0x-k1t-v2/stargazers"><img src="https://img.shields.io/github/stars/roo7k1d/d0x-k1t-v2?color=yellow" alt="Stars Badge"/></a>
 <a href="https://github.com/roo7k1d/d0x-k1t-v2/network/members"><img src="https://img.shields.io/github/forks/roo7k1d/d0x-k1t-v2?color=orange" alt="Forks Badge"/></a>
