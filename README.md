@@ -1,4 +1,4 @@
-<img src="https://cdn.discordapp.com/attachments/820416224005586945/886613185434636318/d0x-k1t-v2.png">
+<img src="https://cdn.discordapp.com/attachments/820416224005586945/1022907895890841651/dashboard.png">
 <p align="center"><i>A web-based dashboard for organizing your roleplay faction.</i></p>
 <div align="center">
   <a href="https://github.com/roo7k1d/rp-faction-web-dashboard/stargazers"><img src="https://img.shields.io/github/stars/roo7k1d/rp-faction-web-dashboard?color=yellow" alt="Stars Badge"/></a>
