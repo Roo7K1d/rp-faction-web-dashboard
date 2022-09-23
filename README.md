@@ -20,48 +20,41 @@
 <hr>
 
 ## Installation Guide
-Since D0x-K1t-v2 is self-hosted, it does not work immediately out-of-box. It is recommended that you use a virtualenv container due to the sheer number of dependencies that can run into conflict with your Python configuration.
+Just put all of the files and folders on a webserver.
 <br>
-<br>
-<b>Building</b><br>
-```text
-$ git clone https://github.com/roo7k1d/D0x-K1t-v2 && cd D0x-K1t-v2
-$ # Start virtualenv if you wish
-$ pip install -r requirements.txt
-$ python run.py
-```
-<br>
-Of course, this is self-hosting on localhost. Although work-in-progress, D0x-K1t-v2 will soon support hosting on a variety of SaaS and server stacks of your choice.
-
-* [Heroku](https://www.heroku.com/) - **TODO**: build a `Procfile`, as well as bash scripts for automatic deployment
-* [ngrok](https://ngrok.com/) - **TODO**: build a script for deployment to ngrok
+Of course, this is self-hosting on localhost.
 
 <hr>
 
 ## Demo
-<img src="https://cdn.discordapp.com/attachments/820416224005586945/886616728946241556/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/820416224005586945/1022893433230196808/awi-system.png">
+
+A live demo can be seen on http://rootk1d.xyz/awi-system
+
+User: DemoUser
+Password: Demo
 
 <hr>
 
 ## Support
-For support you can create an issue [here on GitHub](https://github.com/rootk1d/pad-demo/issues) or you can join my [Discord](https://discord.gg/QQaWvMkFbs).
+For support you can create an issue [here on GitHub](https://github.com/rootk1d/rp-faction-web-dashboard/issues) or you can join my [Discord](https://discord.gg/QQaWvMkFbs).
 
 <hr>
 
 ## Features
-- Easy-to-build, risk-free installation
-- Simple Bootstrap Admin Dashboard
-- Deployable to the Internet
-- Serverless
-- Expansive to any OS
-
-<br>
-
-- Save Doxes in a database
-- WhoIs Lookup
-- Phone Scan
-- Port Checker
-- GeoIP Lookup
+- Multiple password protected accounts and custom roles
+- Add/Edit/Delete users with IT Admin role
+- On Duty/Off Duty List
+- Stocktaking Table
+- Fleet Table
+- Feedback and Complaints System
+- Missions system
+- Farming Routes Table
+- Calendar
+- Duty Information
+- Member List
+- News System
+- Accounting page for selling items/weapons
 
 <hr>
 
@@ -76,7 +69,10 @@ You are not allowed to remove any part of the footer. That includes all of the i
 <hr>
 
 ## Todo (See Issues with tag "help wanted")
-- Add more tools
+- Fully translate to english
+- Database to SQLite File?
+- Add Profiles
+- Convert HREFs to relative URLs
 
 <hr>
 
