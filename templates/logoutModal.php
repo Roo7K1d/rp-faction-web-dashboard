@@ -3,12 +3,12 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Bereit zum verlassen?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Ready to leave?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Bitte drück "Logout", wenn du bereit bist, dich auszuloggen.</div>
+                <div class="modal-body">Please press "Log Out" to log out.</div>
                 <div class="modal-footer">
                     <form action="https://rootk1d.xyz/awi-system/functions/submitLogout.php" method="post">
                     <input class="btn btn-secondary" type="button" data-dismiss="modal" value="Abbrechen"></input>

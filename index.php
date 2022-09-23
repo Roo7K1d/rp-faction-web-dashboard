@@ -7,7 +7,7 @@ if(!isset($_GET['username'])) {
     Header("Location: http://rootk1d.xyz/awi-system/login.php");
 }
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+$conn=new mysqli('DB_HOST', 'DB_USER', 'PASSWORD', 'DB_NAME');
 
 if ($conn->connect_error) {
     die('Error connecting to database: '. $conn->connect_error);
@@ -89,7 +89,7 @@ $news=$conn->query($sql);
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard - Arcadius Web Interface System</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Dashboard - RP Faction</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -102,7 +102,7 @@ $news=$conn->query($sql);
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Mitarbeiter im AWI-System</div>
+                                                Members</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $users; ?></div>
                                         </div>
                                         <div class="col-auto">
@@ -120,7 +120,7 @@ $news=$conn->query($sql);
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Events im Kalender</div>
+                                                Events</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $events; ?></div>
                                         </div>
                                         <div class="col-auto">
@@ -138,7 +138,7 @@ $news=$conn->query($sql);
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
-                                                Mitarbeiter außer Dienst</div>
+                                                Off Duty</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $offduties; ?></div>
                                         </div>
                                         <div class="col-auto">
@@ -156,7 +156,7 @@ $news=$conn->query($sql);
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Mitarbeiter im Dienst</div>
+                                                On Duty</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800"><?php echo $onduties; ?></div>
                                         </div>
                                         <div class="col-auto">
@@ -172,11 +172,11 @@ $news=$conn->query($sql);
                         <div class="col-12">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Herzlich Willkommen</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Welcome</h6>
                                 </div>
                                 <div class="card-body">
-                                    <p>Herzlich Willkommen im AWI-System. Hier findest du alles, was für deine Arbeit bei uns wichtig ist. <br>Solltest du Probleme haben
-                                        oder Fehler entdecken, melde dich gerne bei der IT-Abteilung. <br>Diese können dir auch helfen, wenn du dein Passwort vergessen hast, sich dein Rang geändert hat oder du einen anderen Nachnamen hast.
+                                    <p>Welcome to the web dashboard for RP factions. Here you can find useful tools for organizing your group. <br>
+                                    If you find any bugs feel free to create an issue on GitHub.
                                 </div>
                             </div>
 </div>
@@ -186,7 +186,7 @@ $news=$conn->query($sql);
                         <div class="col-12">
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">Neuigkeiten</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">News</h6>
                                 </div>
                                 <div class="card-body">
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" readonly style="background-color: #FFF"><?php 

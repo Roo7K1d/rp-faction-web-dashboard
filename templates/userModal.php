@@ -14,7 +14,7 @@ if ($conn->connect_error) {
    <div class="modal-dialog modal-lg" role="document">
       <div class="modal-content">
          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Profil - <?php echo $_GET['fullname']; ?></h5>
+            <h5 class="modal-title" id="exampleModalLabel">Profile - <?php echo $_GET['fullname']; ?></h5>
             <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                <span aria-hidden="true">×</span>
             </button>
@@ -23,7 +23,7 @@ if ($conn->connect_error) {
             <div class="col-12 text-center"><h1>----------------------</h1></div>
             <br>
             <br>
-            <div class="col-12 text-center"><h1>IN ARBEIT</h1></div>
+            <div class="col-12 text-center"><h1>WORK IN PROGRESS</h1></div>
             <br>
             <br>
             <div class="col-12 text-center"><h1>----------------------</h1></div>
@@ -44,9 +44,9 @@ if ($conn->connect_error) {
 -->
          </div>
          <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-dismiss="modal">Abbrechen</button>
-            <button class="btn btn-warning">Bearbeiten</button>
-            <button class="btn btn-success">Absenden</button>
+            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+            <button class="btn btn-warning">Edit</button>
+            <button class="btn btn-success">Submit</button>
          </div>
       </div>
    </div>
