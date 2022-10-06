@@ -17,7 +17,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 ?>
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" <?php echo 'href="http://rootk1d.xyz/awi-system/index.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" <?php echo 'href="./index.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-building"></i>
                 </div>
@@ -29,7 +29,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" <?php echo 'href="http://rootk1d.xyz/awi-system/index.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./index.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -44,14 +44,14 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="http://rootk1d.xyz/awi-system/pages/employees.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/employees.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-sitemap"></i>
                     <span>Member List</span></a>
             </li>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="http://rootk1d.xyz/awi-system/pages/information.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/information.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-info"></i>
                     <span>Info</span></a>
             </li>
@@ -59,7 +59,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="http://rootk1d.xyz/awi-system/pages/calendar.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/calendar.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-calendar"></i>
                     <span>Calendar</span>  
 
@@ -76,30 +76,30 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="http://rootk1d.xyz/awi-system/pages/complaint.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/complaint.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-meh"></i>
                     <span>Complaints</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="https://rootk1d.xyz/awi-system/pages/feedback.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/feedback.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-envelope-open-text"></i>
                     <span>Feedback</span></a>
             </li>
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="https://rootk1d.xyz/awi-system/pages/duty.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/duty.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-briefcase"></i>
                     <span>Duty</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="https://rootk1d.xyz/awi-system/pages/storage.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/storage.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-boxes"></i>
                     <span>Storage Access Log</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="https://rootk1d.xyz/awi-system/pages/missions.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/missions.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-clipboard"></i>
                     <span>Missions</span>
                 
@@ -114,7 +114,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" <?php echo 'href="https://rootk1d.xyz/awi-system/pages/routes.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
+                <a class="nav-link" <?php echo 'href="./pages/routes.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">';?>
                     <i class="fas fa-fw fa-route"></i>
                     <span>Routes</span></a>
             </li>
@@ -136,7 +136,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/addevent.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/addevent.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-tasks"></i>
                     <span>Events</span></a>
             </li>
@@ -154,14 +154,14 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/addevent.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/addevent.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-tasks"></i>
                     <span>Events</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/complaintlist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/complaintlist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-meh"></i>
                     <span>Complaints</span>';
                     if ($complaintAmount !== 0) {
@@ -170,7 +170,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
                     echo '</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/feedbacklist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/feedbacklist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-envelope-open"></i>
                     <span>Feedbacks</span>';
                     if ($feedbackAmount !== 0) {
@@ -179,17 +179,17 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
                     echo '</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/news.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/news.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-newspaper"></i>
                     <span>News</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/weaponorder.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/weaponorder.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-sort-amount-up"></i>
                     <span>Weapon Orders</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/cars.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/cars.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-car"></i>
                     <span>Service Vehicles</span></a>
             </li>
@@ -208,7 +208,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/bees.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/bees.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-bug"></i>
                     <span>Bee List</span></a>
             </li>
@@ -228,14 +228,14 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/users.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/users.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Users</span></a>
             </li>
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/complaintlist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/complaintlist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-meh"></i>
                     <span>Complaints</span>
                     ';
@@ -245,7 +245,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
                     echo '</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/feedbacklist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/feedbacklist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-envelope-open"></i>
                     <span>Feedbacks</span>
                     ';
@@ -255,12 +255,12 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
                     echo '</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/storagelist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/storagelist.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-boxes"></i>
                     <span>Storage Access Log</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/cars.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/cars.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-car"></i>
                     <span>Service Vehicle</span></a>
             </li>
@@ -271,7 +271,7 @@ $missionAmount=mysqli_num_rows($conn->query($sql));
             if ($_GET['username'] == 'LoganMcCon') {
                 echo '
                 <li class="nav-item">
-                <a class="nav-link" href="https://rootk1d.xyz/awi-system/pages/routes.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
+                <a class="nav-link" href="./pages/routes.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'">
                     <i class="fas fa-fw fa-exclamation-triangle"></i>
                     <span>TESTING</span></a>
             </li>

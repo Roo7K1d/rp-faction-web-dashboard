@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 if ($_POST['inputPassword'] !== '') {
     $hashedPass=password_hash($_POST['inputPassword'], PASSWORD_BCRYPT);

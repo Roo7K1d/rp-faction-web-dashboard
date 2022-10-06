@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 $results = $conn->query("UPDATE bees SET name = '{$_POST["inputFullName"]}', phone = '{$_POST["inputPhone"]}', gang = '{$_POST["inputGang"]}' WHERE id = '{$_POST["id"]}';");
                                     

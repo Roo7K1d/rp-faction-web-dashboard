@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 if ($conn->connect_error) {
     die('Error connecting to database: '. $conn->connect_error);
@@ -46,12 +46,12 @@ session_start();
             $_SESSION['phone']=$result['phone'];
             $_SESSION['number']=$result['number'];
 
-            header("Location: https://rootk1d.xyz/awi-system/index.php?id=" . $result['id'] ."&username=" . $result['username'] ."&fullname=" . $result['fullname'] ."&role=" . $result['role'] ."&birthday=" . $result['birthday'] ."&usersince=" . $result['usersince'] ."&phone=" . $result['phone'] ."&number=" . $result['number'] ."");
+            header("Location: ../index.php?id=" . $result['id'] ."&username=" . $result['username'] ."&fullname=" . $result['fullname'] ."&role=" . $result['role'] ."&birthday=" . $result['birthday'] ."&usersince=" . $result['usersince'] ."&phone=" . $result['phone'] ."&number=" . $result['number'] ."");
             
         } else {
 
             //Wrong password
-            header("Location: https://rootk1d.xyz/awi-system/login.php");
+            header("Location: ../login.php");
         }
 
     }

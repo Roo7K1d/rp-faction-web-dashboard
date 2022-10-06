@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 $array = $conn->query("SELECT participants WHERE id = '{$_POST["id"]}';");
 

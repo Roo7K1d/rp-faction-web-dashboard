@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 $results = $conn->query("UPDATE news SET text = '{$_POST['inputNews']}';");
                                     

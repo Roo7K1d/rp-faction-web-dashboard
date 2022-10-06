@@ -4,10 +4,10 @@ header('P3P: CP="CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NA
 session_start();
 
 if(!isset($_GET['username'])) {
-    Header("Location: http://rootk1d.xyz/awi-system/login.php");
+    Header("Location: ./login.php");
 }
 
-$conn=new mysqli('DB_HOST', 'DB_USER', 'PASSWORD', 'DB_NAME');
+include("./db.php");
 
 if ($conn->connect_error) {
     die('Error connecting to database: '. $conn->connect_error);

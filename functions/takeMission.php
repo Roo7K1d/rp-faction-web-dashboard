@@ -1,6 +1,6 @@
 <?php
 
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 $results = $conn->query("UPDATE mission SET assignee = '{$_GET['fullname']}', status = 'In Bearbeitung' WHERE id = '{$_POST['id']}';");
                                     
@@ -8,7 +8,7 @@ $results = $conn->query("UPDATE mission SET assignee = '{$_GET['fullname']}', st
 if($results == false) {
     die($db->lastErrorMsg());
 } else {
-    header('Location: https://rootk1d.xyz/awi-system/pages/missions.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'');
+    header('Location: ../pages/missions.php?id=' . $_GET['id'] .'&username=' . $_GET['username'] .'&fullname=' . $_GET['fullname'] .'&role=' . $_GET['role'] .'&birthday=' . $_GET['birthday'] .'&usersince=' . $_GET['usersince'] .'&phone=' . $_GET['phone'] .'&number=' . $_GET['number'] .'');
 }
 
 ?>

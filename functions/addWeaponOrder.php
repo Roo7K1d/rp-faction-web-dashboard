@@ -1,5 +1,5 @@
 <?php
-$conn=new mysqli('localhost', 'root', '1001010mM', 'arcadius');
+include("../db.php");
 
 if ($conn->connect_error) {
     die('Error connecting to database: '. $conn->connect_error);
